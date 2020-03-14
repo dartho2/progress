@@ -53,13 +53,21 @@ import localePl from '@angular/common/locales/pl';
 import { registerLocaleData } from '@angular/common';
 import { LOCALE_ID } from '@angular/core';
 import { HeaderComponent } from './layout/header/header.component';
+import { ContactComponent } from './contact/contact.component';
+import { PriceComponent } from './price/price.component';
+import { OfferComponent } from './offer/offer.component';
+import { HomeComponent } from './home/home.component';
 
 registerLocaleData(localePl, 'pl-PL');
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactComponent,
+    PriceComponent,
+    OfferComponent,
+    HomeComponent
   ],
   imports: [
     // FontAwesomeModule,
