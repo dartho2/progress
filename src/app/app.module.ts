@@ -57,6 +57,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PriceComponent } from './price/price.component';
 import { OfferComponent } from './offer/offer.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 registerLocaleData(localePl, 'pl-PL');
 @NgModule({
@@ -67,7 +68,8 @@ registerLocaleData(localePl, 'pl-PL');
     ContactComponent,
     PriceComponent,
     OfferComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     // FontAwesomeModule,
