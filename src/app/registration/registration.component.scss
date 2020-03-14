@@ -2,19 +2,17 @@
     display: block;
   }
   .dp-carousel-nav-next{
-      position: absolute;
       top:0px;
   }
   .padding-left-block{
-      padding-left: 35px;
+    //   padding-left: 35px;
   }
   .dp-carousel-nav-prev{
-      position: absolute;
       top:0px;
   }
   .dp-carousel-nav-prev-op{
       opacity: 0.1;
-      position: absolute;
+    //   position: absolute;
       top:0px;
   }
   
@@ -8036,7 +8034,6 @@
   .media-left,
   .media-right {
     display: block;
-    vertical-align: initial
   }
   
   .media-middle {

@@ -48,16 +48,21 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import localePl from '@angular/common/locales/pl';
 import { registerLocaleData } from '@angular/common';
 import { LOCALE_ID } from '@angular/core';
+import { HeaderComponent } from './layout/header/header.component';
+
 registerLocaleData(localePl, 'pl-PL');
 @NgModule({
   declarations: [
     AppComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    HeaderComponent
   ],
   imports: [
+    // FontAwesomeModule,
     A11yModule,
     ClipboardModule,
     CdkStepperModule,

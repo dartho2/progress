@@ -1,7 +1,15 @@
+<mat-form-field>
+    <mat-label>Specjalista</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let expert of expert" [value]="expert.firstName">
+        {{expert.firstName}} {{expert.surName}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
 <div class="dp-carousel">
   
     <div id="dpCarousel_dpCalendar60-mw" class="tns-ovh tns-ah">
-        <button [className]="prvExists ? 'dp-carousel-nav dp-carousel-nav-prev circle bg-gray-dark': 'dp-carousel-nav dp-carousel-nav-prev-op circle bg-gray-dark'" type="button" (click)="prevWeek()"
+        <button [disabled]="! prvExists" [className]="prvExists ? 'dp-carousel-nav dp-carousel-nav-prev circle bg-gray-dark': 'dp-carousel-nav dp-carousel-nav-prev-op circle bg-gray-dark'" type="button" (click)="prevWeek()"
          aria-controls="dpCarousel_dpCalendar60"
         tabindex="-1" data-controls="prev"><i class="svg-icon svg-icon__caret-left svg-icon__color-white"><svg width="16"
             height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -42,4 +50,3 @@
         </svg></i></button>
     </div>
   </div>
-  
