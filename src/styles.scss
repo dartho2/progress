@@ -31,3 +31,11 @@ $fizjo-progress-theme: mat-light-theme($fizjo-progress-primary, $fizjo-progress-
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.py-7{
+    margin-top: 40px;
+}
+.img-fluid-shape{
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

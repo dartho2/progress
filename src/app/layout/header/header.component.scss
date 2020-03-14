@@ -26,8 +26,9 @@ z-index: 9999;
     font-size: 14px;
 }
 .font-weight-300-p{
-    color: #ececec;
+    color: #c1c1c1;
     font-weight: 200;
+    font-size: 13px;
 }
 .logo-header-phone{
     width: 140px;
@@ -5287,6 +5288,7 @@ img {
 
 .navbar-dark {
     color: #fff;
+    box-shadow: 2px 4px 2px -2px grey;
 }
 
 .navbar-light::before {
