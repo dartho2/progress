@@ -5215,11 +5215,7 @@ img {
 }
 
 
-.bg-primary,.btn-primary,.btn-white:hover{
-    background:#21c87a!important;
-    border-color: #21c87a!important;
-    color: #fff;
-}
+
 
 .bg-dark,.btn-primary:hover{
     background: #232323!important;
@@ -5288,7 +5284,6 @@ img {
 
 .navbar-dark {
     color: #fff;
-    box-shadow: 2px 4px 2px -2px grey;
 }
 
 .navbar-light::before {
@@ -5523,6 +5518,9 @@ img {
 
 .main-navigation {
     margin-top: -40px;
+    background: #3a7475;
+    box-shadow: 2px 4px 2px -2px grey;
+
 }
 
 

@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { OfferComponent } from './offer/offer.component';
 import { PriceComponent } from './price/price.component';
 import { ContactComponent } from './contact/contact.component';
+import { ExpertComponent } from './expert/expert.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'cennik',
     component: PriceComponent
+  },
+  {
+    path: 'specjalisci',
+    component: ExpertComponent
   },
   {
     path: 'kontakt',

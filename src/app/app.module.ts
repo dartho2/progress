@@ -58,6 +58,7 @@ import { PriceComponent } from './price/price.component';
 import { OfferComponent } from './offer/offer.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { ExpertComponent } from './expert/expert.component';
 
 registerLocaleData(localePl, 'pl-PL');
 @NgModule({
@@ -69,7 +70,8 @@ registerLocaleData(localePl, 'pl-PL');
     PriceComponent,
     OfferComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ExpertComponent
   ],
   imports: [
     // FontAwesomeModule,
