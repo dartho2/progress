@@ -6,8 +6,21 @@
     margin-left: -26px;
     margin-bottom: -20px;
 }
+.main-navigation {
+  margin-top: -62px;
+  background: #3a7475;
+  box-shadow: 2px 4px 2px -2px grey;
 
 }
+
+}
+@media (max-width: 576px){
+  .main-navigation {
+    margin-top: -6px;
+    background: #3a7475;
+    box-shadow: 2px 4px 2px -2px grey;
+  }
+  }
 .logo-header{ 
   width: 200px;
   margin-top: -30px;
@@ -5514,12 +5527,7 @@ img {
 }
 
 
-.main-navigation {
-    margin-top: -40px;
-    background: #3a7475;
-    box-shadow: 2px 4px 2px -2px grey;
 
-}
 
 
 
